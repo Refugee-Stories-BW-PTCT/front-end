@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,CAAC;EACL,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,OAAO;CACpB",
-    "sources": [
-        "Story.scss"
-    ],
-    "names": [],
-    "file": "Story.css"
-}

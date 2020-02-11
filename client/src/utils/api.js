@@ -1,11 +1,14 @@
 import axios from "axios";
 
-export const getToken = () => {
+export function getToken() {
   return localStorage.getItem("token");
-};
+}
+
 export const api = () => {
   return axios.create({
-    baseURL: "api link ", //here is the link of the api
-    Authorization: getToken()
+    baseURL: "https://refu-stories-backend.herokuapp.com/api",
+    headers: {
+      Authorization: getToken()
+    }
   });
 };
