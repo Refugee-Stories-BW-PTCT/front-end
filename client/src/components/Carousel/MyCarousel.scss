@@ -1,0 +1,105 @@
+html {
+  body {
+    h3 {
+      display: flex;
+
+      color: #d3af3a;
+
+      @media (min-width: 300px) {
+      }
+    }
+    .carousel {
+      z-index: 1;
+      margin-bottom: 0rem;
+      margin-top: -5rem;
+
+      height: 10rem;
+      min-height: 10rem;
+      max-height: 50rem;
+
+      width: 15rem;
+      min-width: 15rem;
+      max-width: 50rem;
+
+      @media (min-width: 320px) {
+        height: 10rem * 1.2;
+        width: 15rem * 1.2;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+      }
+      @media (min-width: 400px) {
+        height: 10rem * 1.4;
+        width: 15rem * 1.4;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+      }
+      @media (min-width: 500px) {
+        height: 10rem * 1.9;
+        width: 15rem * 1.9;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+      }
+      @media (min-width: 600px) {
+        height: 10rem * 2;
+        width: 15rem * 2;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+      }
+      @media (min-width: 800px) {
+        height: 10rem * 2.75;
+        width: 15rem * 2.75;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+      }
+
+      .carousel-indicators {
+        background-color: darken($color: #fce181, $amount: 30%);
+        /*  margin: 0 auto 8.5rem auto;
+      height: 3vh; */
+        margin: 0;
+      }
+      .carousel-control-prev {
+      }
+      .carousel-control-next {
+      }
+      .carousel-item {
+      }
+      .carousel-caption {
+      }
+      .carousel-item > img {
+        height: 10rem;
+        width: 15rem;
+
+        @media (min-width: 320px) {
+          height: 10rem * 1.2;
+          width: 15rem * 1.2;
+        }
+        @media (min-width: 400px) {
+          height: 10rem * 1.4;
+          width: 15rem * 1.4;
+        }
+
+        @media (min-width: 500px) {
+          height: 10rem * 1.9;
+          width: 15rem * 1.9;
+        }
+        @media (min-width: 600px) {
+          height: 10rem * 2;
+          width: 15rem * 2;
+        }
+        @media (min-width: 800px) {
+          height: 10rem * 2.75;
+          width: 15rem * 2.75;
+        }
+      }
+      .carousel-control-prev,
+      .carousel-control-next {
+        cursor: pointer;
+      }
+      .carousel-item,
+      .carousel-item.active {
+        align-items: center;
+      }
+    }
+  }
+}
