@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "../Carousel/MyCarousel.js";
+import Carousel from "../Carousel";
 import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { borderRadius } from "@material-ui/system";
