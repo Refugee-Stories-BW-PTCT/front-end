@@ -65,7 +65,7 @@ html body .carousel {
 html body .carousel .carousel-indicators {
   background-color: #dfaf05;
   /*  margin: 0 auto 8.5rem auto;
-      height: 3vh; */
+        height: 3vh; */
   margin: 0;
 }
 
@@ -117,7 +117,7 @@ html body .carousel .carousel-control-next {
 html body .carousel .carousel-item,
 html body .carousel .carousel-item.active {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 /*# sourceMappingURL=MyCarousel.css.map */
