@@ -6,41 +6,116 @@ html body h3 {
 }
 
 html body .carousel {
-  margin-top: 10rem;
+  z-index: 1;
+  margin-bottom: 0rem;
+  margin-top: -5rem;
+  height: 10rem;
+  min-height: 10rem;
+  max-height: 50rem;
+  width: 15rem;
+  min-width: 15rem;
+  max-width: 50rem;
 }
 
-html body .carousel-indicators {
+@media (min-width: 320px) {
+  html body .carousel {
+    height: 12rem;
+    width: 18rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+}
+
+@media (min-width: 400px) {
+  html body .carousel {
+    height: 14rem;
+    width: 21rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+}
+
+@media (min-width: 500px) {
+  html body .carousel {
+    height: 19rem;
+    width: 28.5rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+}
+
+@media (min-width: 600px) {
+  html body .carousel {
+    height: 20rem;
+    width: 30rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+}
+
+@media (min-width: 800px) {
+  html body .carousel {
+    height: 27.5rem;
+    width: 41.25rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+}
+
+html body .carousel .carousel-indicators {
   background-color: #dfaf05;
   /*  margin: 0 auto 8.5rem auto;
         height: 3vh; */
   margin: 0;
 }
 
-html body .carousel-control-prev {
-  height: auto;
+html body .carousel .carousel-item > img {
+  height: 10rem;
+  width: 15rem;
 }
 
-html body .carousel-control-next {
-  height: auto;
+@media (min-width: 320px) {
+  html body .carousel .carousel-item > img {
+    height: 12rem;
+    width: 18rem;
+  }
 }
 
-html body .carousel-item {
-  height: auto;
+@media (min-width: 400px) {
+  html body .carousel .carousel-item > img {
+    height: 14rem;
+    width: 21rem;
+  }
 }
 
-html body .carousel-item > img {
-  height: 50vh;
-  width: 100%;
-  position: static;
+@media (min-width: 500px) {
+  html body .carousel .carousel-item > img {
+    height: 19rem;
+    width: 28.5rem;
+  }
 }
 
-html body .carousel-control-prev,
-html body .carousel-control-next {
+@media (min-width: 600px) {
+  html body .carousel .carousel-item > img {
+    height: 20rem;
+    width: 30rem;
+  }
+}
+
+@media (min-width: 800px) {
+  html body .carousel .carousel-item > img {
+    height: 27.5rem;
+    width: 41.25rem;
+  }
+}
+
+html body .carousel .carousel-control-prev,
+html body .carousel .carousel-control-next {
   cursor: pointer;
 }
 
-html body .carousel-item,
-html body .carousel-item.active {
+html body .carousel .carousel-item,
+html body .carousel .carousel-item.active {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
